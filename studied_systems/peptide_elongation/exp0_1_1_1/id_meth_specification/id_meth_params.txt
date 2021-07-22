@@ -1,0 +1,10 @@
+p=6
+delta_t=0.001
+l0=24
+l=12
+alpha=12
+beta=12
+r=1
+m=6
+s=1
+precision=0.001

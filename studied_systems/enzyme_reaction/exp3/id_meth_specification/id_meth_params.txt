@@ -1,0 +1,8 @@
+p=3
+delta_t=0.33
+l0=100
+l=50
+alpha=50
+beta=50
+s=1
+precision=0.01

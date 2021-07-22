@@ -1,0 +1,9 @@
+p=6
+delta_t=0.1
+l0=8
+l=4
+alpha=5
+beta=5
+r=2
+m=1
+s=2
