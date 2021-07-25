@@ -1,6 +1,13 @@
 addpath(genpath([pwd, '\\', 'identification' ]))
 addpath(genpath([pwd, '\\', 'studied_systems\\immune_response']))
 
+
+disp('Experiment p=2')
+run_experiment('studied_systems\\immune_response\\exp_C_obs',@u2,@free)
+disp('Experiment p=3')
+run_experiment('studied_systems\\immune_response\\exp_C_obsp=3',@u2,@free)
+
+
 %% controllability problems computations
 %sys_spec=read_sys('studied_systems\\immune_response\\exp_C_obs'); 
 %sys_spec=read_sys('studied_systems\\immune_response\\exp_all_states'); 
@@ -17,7 +24,7 @@ addpath(genpath([pwd, '\\', 'studied_systems\\immune_response']))
 %rank(obsv(A,C));
 %pause;
 
-%% experimenty
+%% other studied experimenty
 %disp('1')
 %run_experiment('studied_systems\\immune_response\\exp_all_statesp=3',@u2,@u6)
 %pause
@@ -26,10 +33,6 @@ addpath(genpath([pwd, '\\', 'studied_systems\\immune_response']))
 %pause
 %disp('3')
 %run_experiment('studied_systems\\immune_response\\exp_all_states _smaller_free_decay',@u2,@u6)
-%pause
-disp('4')
-run_experiment('studied_systems\\immune_response\\exp_C_obs',@u3,@u6)
-run_experiment('studied_systems\\immune_response\\exp_C_obsp=3',@u3,@u6)
 %pause
 %disp('5')
 %run_experiment('studied_systems\\immune_response\\exp_C_unobs',@u2,@u6)

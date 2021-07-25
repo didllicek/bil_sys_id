@@ -74,7 +74,7 @@
             %txt='lala' 
             txt1 = sprintf('yo%d ',i);
             h=plot(tps,ys(:,i),'-','DisplayName',txt1,'LineWidth',2);         
-            %h=plot(0:id_meth_params.delta_t:id_meth_params.delta_t*(id_meth_params.points-1),y_id(:,i),'o','DisplayName',txt);          
+            %h=plot(0:id_meth_params.delta_t:id_meth_params.delta_t*(id_meth_params.points-1),y_id(:,i),'o','DisplayName',txt1);          
             txt1 = sprintf('yi%d ',i);
             plot(tps_id,ys_id(:,i),'+','DisplayName',txt1,'MarkerSize',6,'Color',h.Color);
    

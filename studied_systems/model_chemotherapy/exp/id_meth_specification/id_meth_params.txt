@@ -1,9 +1,10 @@
-p=6
+p=3
 delta_t=0.1
-l0=8
-l=4
-alpha=5
-beta=5
+l0=20
+l=10
+alpha=10
+beta=10
 r=2
 m=1
 s=2
+precision=0.0000001

@@ -56,6 +56,6 @@ det([(NB*Ac-Ac*NB)*x,NK*x,NB*x])
 rank([(NK*Ac-Ac*NK)*x,NK*x,NB*x])
 
 rank([C;C*Ac;C*NB;C*NK;C*Ac^2])
-[C;C*Ac;C*NB;C*NK;C*Ac^2]
+[C;C*Ac;C*NB;C*NK;C*Ac^2;C*NK^2;C*NB^2;C*Ac]
 
 

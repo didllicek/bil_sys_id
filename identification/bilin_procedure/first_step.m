@@ -9,7 +9,7 @@ function [Ac,C,n,x_1,x_l0,U1_up,A1_d,failed] = first_step(H1,h1_up,id_meth_param
     suma=0;
     sum(S(:));    
     while ((suma/sum(S(:)))<=(1-id_meth_params.precision))
-        n=n+1
+        n=n+1;
         suma=suma+S(n,n);
     end 
     
